@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5545913591071608683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5545913591071608685}
+  - component: {fileID: 5545913591071608682}
+  m_Layer: 0
+  m_Name: b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5545913591071608685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5545913591071608683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1088.3059, y: 176.66646, z: -3347.513}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5545913591071608682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5545913591071608683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5306411227190c4429334018a7686f20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 8a32608c0f4af954fb2f5f3b7ad4d37f, type: 2}
+  group: 1
+  level: 21
+  moves:
+  - {fileID: 11400000, guid: 1d501bcaa3c7351468dfbdf9d813fc24, type: 2}
+  - {fileID: 11400000, guid: 231646a825d2313499284fa15a6efd8d, type: 2}
+  HP: 0
+  currentHP: 0
+  attack: 0
+  defence: 0
+  spAtk: 0
+  spDef: 0
+  speed: 0
+  player: 1
+  evIvStats:
+    HPIV: 67
+    ATKIV: 456
+    DEFIV: 234
+    SPIV: 8763
+    SPDIV: 3453
+    HPEV: 34
+    ATKEV: 65464
+    DEFEV: 234
+    SPEV: 86784
+    SPDEV: 2345

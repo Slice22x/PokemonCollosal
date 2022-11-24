@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cc7eb7e29f3b314980021f57373b763, type: 3}
+  m_Name: Bulbasaur
+  m_EditorClassIdentifier: 
+  pokemonName: Bulbasaur
+  description: 
+  ID: 1
+  frontSprite: {fileID: 21300000, guid: 108120c0ff4de6540b4d649fa66f9687, type: 3}
+  backSprite: {fileID: 21300000, guid: 9c0a71c7348a74f409bb8712fd0545b5, type: 3}
+  front2: {fileID: 21300000, guid: 749df2912e042184d81e78b73b29b663, type: 3}
+  back2: {fileID: 21300000, guid: d1ca9369b9ceb534685e57a0021bb126, type: 3}
+  type: 0300000007000000
+  baseMoves:
+  - {fileID: 0}
+  baseHP: 45
+  baseATK: 49
+  baseDEF: 49
+  baseSPAtk: 65
+  baseSPDef: 65
+  baseSPD: 45
+  typeStats: []
